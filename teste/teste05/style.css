@@ -1,0 +1,56 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'resident';
+    src: url('fonts/PenumbraSerifStd-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    width: 600px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #4D4D4D;
+
+}
+
+p, h1 {
+   color: white; 
+}
+
+p {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'resident', Times, serif;
+    font-weight: lighter;
+    color: #FF1629;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+h2 {
+    text-align: left;
+    font-family: 'resident', Times, serif;
+    font-weight: lighter;
+    color: #FF1629;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+img {
+    width: 400px;
+    position: relative;
+    background: none;
+    margin-left: 100px;
+}

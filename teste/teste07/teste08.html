@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste 8</title>
+    <style>
+        @font-face {
+            font-family: 'love';
+            src: url('fonts/Filxgirl.TTF') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div#especial > p {
+            display: none;
+            font-family: 'love', Times, serif;
+            font-weight: bold;
+            font-size: 3em;
+        }
+
+        div#especial:hover > p {
+            display: block;
+            color: white;
+            background-color: red;
+            width: 300px;
+        }
+
+        div#especial:hover {
+            color: red;
+            text-decoration: underline;
+        }
+        .amor::before {
+            content: '5';
+        }
+
+        .amo::after {
+            content: 6;
+        }
+
+        .d1 {
+            background: lightgray;
+            display: inline-block;
+            border: 1px solid black;
+            width: 200px;
+            height: 200px;
+        }
+
+        .d1:hover {
+            background-color: gold;
+        }
+
+        .d1 > p {
+            text-align: center;
+            display: none;
+        }
+
+        .d1:hover > p {
+            display: block;
+        } 
+    </style>
+</head>
+<body>
+    <h1>Dias dos Namorados</h1>
+    <p>Passe o mouse</p>
+    
+    <div id="especial">
+        passe o mouse
+        <p class="amor">Milena eu te amo....</p>
+    </div>
+
+    <div class="d1"><p>1</p></div>
+    <div class="d1"><p>2</p></div>
+    <div class="d1"><p>3</p></div>
+</body>
+</html>
