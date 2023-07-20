@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste02</title>
+    <link rel="stylesheet" href="estilo/style-1.css">
+</head>
+<body>
+<main>
+    <header>
+        <h1>Site de tabela</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Peça já</a>
+        <a href="#">Carrinho</a>
+        <a href="#">Fale conosco</a>
+    </nav>
+    <h2>Tabela de Preço de Eletrodoméstico</h2>
+        <table>
+            <caption>Tabela de Vendas</caption>
+            <thead>
+                <tr>
+                    <th>Produtos</th>
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Ago</th>
+                    <th>Set</th>
+                    <th>Out</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>TV 40"</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>16</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>Home Theater</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>16</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>Samsung Galaxy S20</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>iPad Mini</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>PlayStation 4</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Lava louças</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Amazon Echo</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>07</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>05</td>
+                    <td>02</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>16</td>
+                </tr>
+            </tbody>
+        </table>
+        <section>
+            <h2>Formulário</h2>
+            <form action="../../exercicios/ex0025/cadastro.php" autocomplete="on" method="post">
+                <fieldset>
+                    <legend>Cadastro</legend>
+                    <p>
+                        <label for="inome">Nome</label>
+                        <input type="text" name="nome" id="inome" maxlength="20" placeholder="Nome" required>
+                    </p>
+                    <p>
+                        <label for="isobre">Sobrenome</label>
+                        <input type="text" name="sobre" id="isobre" maxlength="20" placeholder="Sobrenome" required>
+                    </p>
+                    <p>
+                        <label for="iemail">E-mail</label>
+                        <input type="email" name="email" id="iemail" placeholder="E-mail" required>
+                    </p>
+                    <p>
+                        <label for="isenha">Senha</label>
+                        <input type="password" name="senha" id="isenha" minlength="8" maxlength="20" required placeholder="Senha">
+                    </p>
+                    <p>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </p>
+                    <legend>Já é um membro? Faça login</legend>
+                </fieldset>
+            </form>
+        </section>
+        <section class="conteudo">
+            <h2>Compras onlines</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus autem inventore quis repudiandae illo, delectus ad ex cupiditate, magnam tempore expedita neque optio soluta repellendus aperiam pariatur sit. Dolores, ex. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, consequuntur tempora. Exercitationem aspernatur ea corporis deserunt vitae voluptatem nihil facere magnam dolore eaque repudiandae nesciunt, mollitia consequatur officia officiis provident. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, architecto. Voluptates quas quo iure, omnis qui debitis odio possimus accusantium fugit aut amet maiores voluptate cum excepturi modi ducimus esse?</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio at, error est, repellat cumque sit inventore earum itaque culpa ullam quisquam reprehenderit voluptatibus. Rerum ut ipsa maxime amet dolore culpa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dignissimos architecto perferendis porro suscipit! Quisquam quis molestias nulla, animi quam ullam, suscipit cupiditate eaque cum id voluptate. Molestiae, error hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit perspiciatis veritatis reiciendis laudantium illum tempore velit repellendus dicta voluptas saepe! Expedita veniam hic inventore vitae aperiam accusamus ducimus natus cum!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi veniam dolores quis, hic asperiores aspernatur sit minus dolorum vel similique quae id quia nulla, magni dolore quisquam consequuntur! Dignissimos, amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis maiores et dolorum! Laudantium perferendis reiciendis consectetur sequi excepturi, repellat, eligendi, ex ad ratione expedita fugit consequuntur voluptatum id libero recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eaque odit corporis reprehenderit dolorum nulla quo vitae facere, recusandae harum mollitia, veniam pariatur quidem, cumque reiciendis? Facilis ex odit incidunt.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por <a href="https://www.instagram.com/" target="_blank" rel="external">João Vitor Nishimoto Bonfim</a></p>
+    </footer>
+</body>
+</html>
