@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+</head>
+<body>
+    <h1>Formulário de Inscrições</h1>
+    <h2>Preencha seus dados</h2>
+
+    <form action="../../exercicios/ex0025/cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" minlength="4" maxlength="30" required>
+        </p>
+        <p>
+            <label for="iemail">E-mail:</label>
+            <input type="email" name="email" id="iemail" required>
+        </p>
+        <p>
+            <label for="iend">Endereço</label>
+            <input type="text" name="end" id="iend" required>
+        </p>
+        <p>
+            <label for="icid">Cidade:</label>
+            <input type="text" name="cid" id="icid" required>
+        </p>
+        <p>
+            <label for="itel">Telefone:</label>
+            <input type="tel" name="tel" id="itel" pattern="\(\d{2}\)\d{4,5}-\d{4}$" required>
+        </p>
+        <p>
+            <label for="">Sexo:</label>
+            <input type="radio" name="sexo" id="imas"><label for="imas">Masculino</label>
+            <input type="radio" name="sexo" id="ifem"><label for="ifem">Feminino</label>
+        </p>
+        <p>
+            <label for="iusu">Usuário:</label>
+            <input type="text" name="usu" id="iusu" placeholder="Entre com seu login" required>
+        </p>
+        <p>
+            <label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha" required>
+        </p>
+        <p>
+            <input type="submit" value="Finalizar minha inscrição">
+        </p>
+    </form>
+</body>
+</html>
