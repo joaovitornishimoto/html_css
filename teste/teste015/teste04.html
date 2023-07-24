@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        p > input.botao {
+            background-color: rgb(70, 70, 70);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Livro de Notas</h1>
+    <p>Simples livro de notas online é útil para registrar e gerenciar as notas e lições dos estudantes online.</p><hr>
+    <form action="" method="get">
+        <p>
+            <label for="inome">Nome do Estudante</label>
+            <input type="text" name="nome" id="inome" placeholder="Nome" required>
+            <input type="text" name="nome" id="inome" placeholder="Último" required>
+        </p>
+        <p>
+            <label for="ifor">Formulário</label>
+            <input type="text" name="for" id="ifor" required>
+        </p>
+        <p>
+            <label for="iid"># ID do Estudante</label>
+            <input type="text" name="id" id="iid" required>
+        </p>
+        <p>
+            <label for="itar">Titulo da Tarefa</label>
+            <input type="text" name="tar" id="itar" required>
+        </p>
+        <p>
+            <label for="istatus">Status da Tarefa</label>
+            <input type="text" name="status" id="istatus" placeholder="Completa" required>
+        </p>
+        <p>
+            <label for="inota">Nota</label>
+            <input type="text" name="nota" id="inota" required>
+        </p>
+        <p>
+            <label for="icom">Comentários e menções<br></label>
+            <textarea nome="com" id="icom" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar" class="botao">
+        </p>
+    </form>
+</body>
+</html>
