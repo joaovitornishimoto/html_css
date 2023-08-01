@@ -4,8 +4,118 @@
 
 * { 
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+
+:root {
+    --cor1: #34F8BC;
+    --cor2: #2ED9D6;
+    --cor3: #3EC3F0;
+    --cor4: #2F83DC;
+    --cor5: #345FF8;
+    --cor6: #F02F1C;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background-color: lightgray;
+}
+
+header {
+    background-image: linear-gradient(to right, var(--cor2), var(--cor3), var(--cor4));
+    padding: 15px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.212);
+    text-align: center;
+}
+
+header > nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition-duration: .3s;
+}
+
+header > nav > a:hover {
+    background-color: rgba(0, 0, 0, 0.137);
+}
+
+header > nav > a.botao {
+    background-color: #F02F1C;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    transition-duration: .3s;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.548);
+}
+
+header > nav > a.botao:hover {
+    background-color: #aa2216;
+}
+
+main {
+    width: 100vh;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+section h2 {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 2.5em;
+    color: var(--cor5);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+section h3 {
+    padding-bottom: 5px;
+    color: rgba(0, 0, 0, 0.747);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead > tr > th {
+    border: none;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+ td > a {
+    text-decoration: none;
+    color: black;
+ }
+
+ tfoot > tr > td {
+    background-color: lightgray;
+    text-align: center;
+ }
+
+ footer {
+    background-image: linear-gradient(to right, var(--cor2), var(--cor3), var(--cor4));
+    padding: 7px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+ }
+
+ footer a {
+    color: white;
+    text-decoration: none;
+ }
+
+ footer a:hover {
+    text-decoration: underline;
+ }
