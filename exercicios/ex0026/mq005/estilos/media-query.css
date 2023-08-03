@@ -12,8 +12,8 @@
     menu > ul > li {
         display: inline-block;
     }
-}
 
-@media screen and (min-width: ) {
-    
+    main {
+        width: 768px;
+    }
 }
