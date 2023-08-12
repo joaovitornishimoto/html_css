@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.container {
+    background-color: #ccc;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    /* column | row-reverse | column-reverse */
+
+    flex-wrap: wrap;
+    /* wrap | wrap-reverse */
+
+    justify-content: flex-start;
+    /* flex-end | center | space-between | space-around */
+
+    align-items: stretch;
+    /* flex-star | flex-end | center | baseline*/
+
+    align-content: stretch; /* <--- padrão */
+    /* flex-start | flex-center | flex-end | space-between | space-around */
+
+}
+
+.item {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 5px;
+    width: 200px;
+    height: 50px;
+}
