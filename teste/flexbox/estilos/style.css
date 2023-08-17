@@ -18,7 +18,6 @@
 
     align-content: stretch; /* <--- padrão */
     /* flex-start | flex-center | flex-end | space-between | space-around */
-
 }
 
 .item {
