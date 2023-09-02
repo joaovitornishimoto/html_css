@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            height: 100%;
+            width: 100%;
+
+            display: grid;
+            grid-template-columns: repeat(auto-fill, 200px);
+            grid-template-rows: repeat(auto-fill, 200px);
+            gap: 10px;
+            grid-template-areas: "green yellow"
+            "red blue";
+            align-items: center;
+            justify-items: baseline;
+        }
+
+        div {
+            width: 300px;
+            height: 300px;
+        }
+
+        .red {
+            background-color: red;
+            grid-area: red;
+        }
+
+        .blue {
+            background-color: blue;
+            grid-area: blue;
+        }
+
+        .green {
+            background-color: green;
+            grid-area: green;
+        }
+
+        .yellow {
+            background-color: yellow;
+            grid-area: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="red"></div>
+        <div class="blue"></div>
+        <div class="green"></div>
+        <div class="yellow"></div>
+    </div>
+</body>
+</html>
