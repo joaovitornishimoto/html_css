@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+.container {
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px;
+    grid-template-areas: "imagem1"
+    "imagem4 imagem5"
+    "imagem2 imagem3";
+}
+
+div {
+    width: 200px;
+    height: 200px;
+}
+
+.imagem1 {
+    background: url("../imagens/resident-evil-death-island-jill-leon-01-534x462.jpg") no-repeat;
+    background-position: center center;
+    grid-area: "imagem1";
+}
+
+.imagem2 {
+    background: url("../imagens/resident-evil-re1-original-actors-live-action-533x261.jpg") no-repeat;
+    background-position: center center;
+    grid-area: "imagem2";
+}
+
+.imagem3 {
+    background: url("../imagens/resident-evil-death-island-characters-ending-533x261.jpg") no-repeat;
+    background-position: center center;
+    grid-area: "imagem3";
+}
