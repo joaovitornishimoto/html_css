@@ -71,3 +71,9 @@ header li:last-child {
         margin-bottom: 15px;
     }
 }
+
+/* HERO */
+
+.hero {
+    background-image: url(../imagens/thumbbig-279101.webp);
+}
