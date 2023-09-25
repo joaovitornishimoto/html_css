@@ -75,5 +75,54 @@ header li:last-child {
 /* HERO */
 
 .hero {
-    background-image: url(../imagens/thumbbig-279101.webp);
+    background-image: url('../imagens/chris-jill1.webp');
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 3.2em;
+    color: white;
+}
+
+.hero hr {
+    width: 25%;
+    margin-top: 10px;
+    border: 1px solid white;
+    color: white;
+}
+
+@media screen and (max-width: 700px){
+  .hero h1 {
+    font-size: 3em;
+  }
+
+  .hero hr {
+    width: 50%;
+  }
+}
+
+/* CONHEÇA O JOGO */
+
+.conheca-o-jogo {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.conheca-o-jogo p {
+    padding: 10px;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.conheca-o-jogo .strong {
+    color: red;
+    font-weight: bold;
 }
